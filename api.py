@@ -2,6 +2,7 @@
 from flask import Flask
 from flask_restful import Resource, Api
 from poll_api.resources.poll import PollResource
+import poll_api.authentication
 
 app = Flask(__name__)
 api = Api(app)
