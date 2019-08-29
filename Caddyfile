@@ -1,0 +1,6 @@
+3wille.ovh {
+    root /srv/pollbot
+    proxy / localhost:5000 {
+        transparent
+    }
+}
